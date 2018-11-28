@@ -14,4 +14,8 @@ class SinglePostcodeService
     @single_postcode_data['status']
   end
 
+  def get_results
+    @single_postcode_data['result']
+  end
+
 end
